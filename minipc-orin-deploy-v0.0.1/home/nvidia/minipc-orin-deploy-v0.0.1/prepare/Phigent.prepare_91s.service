@@ -1,0 +1,15 @@
+[Unit]
+Description=prepare
+After=network.target
+After=graphical.target
+[Service]
+LimitNOFILE=1000000
+LimitCORE=infinity
+Type=forking
+ExecStart=/bin/bash /home/nvidia/driver/prepare_91s.sh
+KillMode=control-group
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=graphical.target

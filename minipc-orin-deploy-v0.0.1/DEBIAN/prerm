@@ -1,0 +1,6 @@
+#!/bin/bash
+set -x
+echo "prerm"
+root_path=/home/nvidia/minipc-orin-deploy-v0.0.1
+touch $root_path/tmp.log
+sudo rm $root_path/*.log

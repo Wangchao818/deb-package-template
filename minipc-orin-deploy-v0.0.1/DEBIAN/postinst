@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# sudo bash  orin_deploy.sh
+echo "postinst"
+# dpkg -l | grep orin-system-deploy
+# dpkg -L orin-system-deploy
+# echo "Install complete!"
+

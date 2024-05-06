@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Exec=/bin/bash /home/nvidia/xinput_auto_map/xinput_auto_map.sh > /home/nvidia/xinput_auto_map/xinput_auto_map.log 2>&1
+Terminal=true
+X-GNOME-Autostart-enabled=true
+Name[zh_CN]=xinput_auto_map
+Name=xinput_auto_map
+Comment[zh_CN]=
+Comment=

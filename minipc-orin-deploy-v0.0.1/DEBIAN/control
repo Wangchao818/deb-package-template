@@ -1,0 +1,7 @@
+Package: minipc-orin-deploy
+Version: 0.0.1
+Maintainer: chao01.wang@phigent.ai
+Architecture: amd64
+Section: devel
+Priority: optional
+Description: minipc-orin one-click deployment
